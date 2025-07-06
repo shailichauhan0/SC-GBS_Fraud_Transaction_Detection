@@ -1,0 +1,22 @@
+/* Border styles for alert cards */
+.border-left-danger {
+    border-left: 5px solid var(--danger-color);
+}
+
+.border-left-warning {
+    border-left: 5px solid var(--warning-color);
+}
+
+.border-left-info {
+    border-left: 5px solid var(--info-color);
+}
+
+/* Additional alert card styling */
+.card {
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
